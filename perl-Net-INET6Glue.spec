@@ -80,9 +80,9 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 
 %files
 %defattr(-,root,root,-)
-/usr/lib/perl5/vendor_perl/5.28.1Net/INET6Glue.pm
-/usr/lib/perl5/vendor_perl/5.28.1Net/INET6Glue/FTP.pm
-/usr/lib/perl5/vendor_perl/5.28.1Net/INET6Glue/INET_is_INET6.pm
+/usr/lib/perl5/vendor_perl/5.28.1/Net/INET6Glue.pm
+/usr/lib/perl5/vendor_perl/5.28.1/Net/INET6Glue/FTP.pm
+/usr/lib/perl5/vendor_perl/5.28.1/Net/INET6Glue/INET_is_INET6.pm
 
 %files dev
 %defattr(-,root,root,-)
