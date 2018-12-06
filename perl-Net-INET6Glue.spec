@@ -4,7 +4,7 @@
 #
 Name     : perl-Net-INET6Glue
 Version  : 0.603
-Release  : 7
+Release  : 8
 URL      : https://cpan.metacpan.org/authors/id/S/SU/SULLR/Net-INET6Glue-0.603.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/S/SU/SULLR/Net-INET6Glue-0.603.tar.gz
 Source1  : http://http.debian.net/debian/pool/main/libn/libnet-inet6glue-perl/libnet-inet6glue-perl_0.603-2.debian.tar.xz
