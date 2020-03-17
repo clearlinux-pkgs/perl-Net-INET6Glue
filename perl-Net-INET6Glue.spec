@@ -4,7 +4,7 @@
 #
 Name     : perl-Net-INET6Glue
 Version  : 0.603
-Release  : 11
+Release  : 12
 URL      : https://cpan.metacpan.org/authors/id/S/SU/SULLR/Net-INET6Glue-0.603.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/S/SU/SULLR/Net-INET6Glue-0.603.tar.gz
 Source1  : http://http.debian.net/debian/pool/main/libn/libnet-inet6glue-perl/libnet-inet6glue-perl_0.603-2.debian.tar.xz
@@ -80,7 +80,7 @@ make TEST_VERBOSE=1 test
 rm -rf %{buildroot}
 mkdir -p %{buildroot}/usr/share/package-licenses/perl-Net-INET6Glue
 cp %{_builddir}/Net-INET6Glue-0.603/COPYRIGHT %{buildroot}/usr/share/package-licenses/perl-Net-INET6Glue/b8da0f4207a9e17c652e10fad951f78b16f90956
-cp %{_builddir}/Net-INET6Glue-0.603/deblicense/copyright %{buildroot}/usr/share/package-licenses/perl-Net-INET6Glue/ce2b80251326f53712fb92f725ae38bf9b85e19b
+cp %{_builddir}/debian/copyright %{buildroot}/usr/share/package-licenses/perl-Net-INET6Glue/ce2b80251326f53712fb92f725ae38bf9b85e19b
 if test -f Makefile.PL; then
 make pure_install PERL_INSTALL_ROOT=%{buildroot} INSTALLDIRS=vendor
 else
@@ -107,6 +107,6 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 
 %files perl
 %defattr(-,root,root,-)
-/usr/lib/perl5/vendor_perl/5.30.1/Net/INET6Glue.pm
-/usr/lib/perl5/vendor_perl/5.30.1/Net/INET6Glue/FTP.pm
-/usr/lib/perl5/vendor_perl/5.30.1/Net/INET6Glue/INET_is_INET6.pm
+/usr/lib/perl5/vendor_perl/5.30.2/Net/INET6Glue.pm
+/usr/lib/perl5/vendor_perl/5.30.2/Net/INET6Glue/FTP.pm
+/usr/lib/perl5/vendor_perl/5.30.2/Net/INET6Glue/INET_is_INET6.pm
